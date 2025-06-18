@@ -1,4 +1,5 @@
 package com.traffic.controller;
+package com.traffic.controller;
 
 import org.springframework.web.bind.annotation.*;
 
