@@ -1,0 +1,65 @@
+[33mcommit 4287501c13e81bcf765a850f62408e07ebaa5b8b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Mon Jun 23 11:19:47 2025 +0530
+
+    Add Graphite monitoring using Micrometer and configure metrics
+
+[33mcommit 5936e3a2afa05b72f93b893fdcdd91d85d62b22e[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Mon Jun 23 10:36:51 2025 +0530
+
+    Add Graphite monitoring using Micrometer and configure metrics
+
+[33mcommit 27892ee665503f4f79dd89e8b3f1152b4b86c828[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 17:47:48 2025 +0530
+
+    Add StatsD metrics export via Micrometer
+
+[33mcommit 598197f9988b0443a7886337800e44e1cc117d28[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 12:35:01 2025 +0530
+
+    updated pom file
+
+[33mcommit e7a2f57e52e27433553393b07a24162198e04f25[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 12:15:32 2025 +0530
+
+    Updated congestion prediction logic
+
+[33mcommit e76035bc59433380ec70c35631202b3ecac4cc1e[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 12:09:24 2025 +0530
+
+    Updated congestion prediction logic
+
+[33mcommit f9ea274a327a0473416dfb4d541777c34d54a3c5[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 11:49:40 2025 +0530
+
+    Updated congestion prediction logic
+
+[33mcommit 43ccf770f4ef7d0d33c6ce114e0b86b887ab5fda[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 11:32:11 2025 +0530
+
+    Add smart-traffic-devops Maven project
+
+[33mcommit 10dc0e1b88256050516ff5cb10fc8d983b04244d[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 10:46:20 2025 +0530
+
+    Initial Devops pipeline
+
+[33mcommit 899486f43349f31c94e970aa007a408c4a5d7b86[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 10:30:21 2025 +0530
+
+    Initial commit with Java Spring Boot and Docker setup
+
+[33mcommit 83c2aea9ce6336f01ccb5aea0730f0fca13ff0c9[m
+Author: NavyaReddi <navyareddi04@gmail.com>
+Date:   Wed Jun 18 10:05:11 2025 +0530
+
+    Initial commit with Jenkinsfile and backend
