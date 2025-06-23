@@ -2,14 +2,29 @@ version: '3'
 services:
   graphite:
     image: graphiteapp/graphite-statsd
+    container_name: graphite
     ports:
-      - "80:80"         # Graphite web interface
+      - "80:80"         # Graphite web interface (optional)
       - "2003:2003"     # Graphite plaintext metrics
       - "8125:8125/udp" # StatsD metrics
     restart: always
+    networks:
+      - monitoring
 
   grafana:
     image: grafana/grafana
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin  # Default admin password for Grafana
     ports:
       - "3000:3000"     # Grafana web interface
     restart: always
+    depends_on:
+      - graphite
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    driver: bridge
+
