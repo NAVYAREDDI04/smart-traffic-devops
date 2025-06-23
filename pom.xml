@@ -48,6 +48,15 @@
                    <groupId>io.micrometer</groupId>
                 <artifactId>micrometer-registry-graphite</artifactId>
               </dependency>
+              <dependency>
+                     <groupId>io.micrometer</groupId>
+                     <artifactId>micrometer-core</artifactId>
+               </dependency>
+               <dependency>
+                    <groupId>com.timgroup</groupId>
+                    <artifactId>java-statsd-client</artifactId>
+                   <version>3.1.0</version>
+               </dependency>
 	</dependencies>
 
 	<build>
