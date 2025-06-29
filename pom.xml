@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
 
     <name>smart-traffic-devops</name>
-    <description>Smart Traffic Prediction API with Devops</descrip>
+    <description>Smart Traffic Prediction API with Devops</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
