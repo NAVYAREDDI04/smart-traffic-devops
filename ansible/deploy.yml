@@ -2,7 +2,7 @@ hosts: localhost
   become: true
   tasks:
    - name: Run smart-traffic Docker container
-     docker_container:
+     community.docker.docker_container:
        name: smart-traffic
        image: smart-traffic-devops
        state: started
