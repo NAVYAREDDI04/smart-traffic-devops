@@ -1,9 +1,10 @@
-- hosts: servers
+hosts: localhost
   become: true
   tasks:
-    - name: Stop previous container
-      shell: docker stop traffic-api && docker rm traffic-api
-      ignore_errors: true
-
-    - name: Run latest container
-      shell: docker run -d -p 8080:8080 --name traffic-api traffic-api:latest
+   - name: Run smart-traffic Docker container
+     docker_container:
+       name: smart-traffic
+       image: smart-traffic-devops
+       state: started
+       ports:
+         - "9090:8080"
